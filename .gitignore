@@ -14,3 +14,6 @@ api/api_key.txt
 
 # Ignore .srt files
 *.srt
+
+# Ignore .srt files
+*.jsonl
