@@ -1,0 +1,16 @@
+# Ignore PyCharm files
+.idea/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore the api_key.txt file
+api/api_key.txt
+
+# Ignore .srt files
+*.srt

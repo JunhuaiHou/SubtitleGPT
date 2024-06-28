@@ -1,0 +1,400 @@
+- prompt: |
+    あなたも協力してくれるの？
+  answer: |
+    あなた_も(too)協力して_(cooperate)くれる(give)の？
+
+- prompt: |
+    どうとは？
+    うまくいってるのかって話だ。
+  answer: |
+    どう(how)と_は？
+    うまく(well)いってる(going)の_か_って_話(matter)だ。
+
+- prompt: |
+    僕はチョコなんて俗っぽいもの
+    興味ないけどね。
+  answer: |
+    僕_は_チョコ(chocolate)なんて(things like)俗っぽい(common)もの_
+    興味(interest)ない(not)けど_ね_。
+
+- prompt: |
+    「今日の放課後に
+    一度会って話がしたい。
+  answer: |
+    「今日(today)の_放課後(after school)に_
+    一度(once)会って(meet)話(talk)が_したい(want)。
+
+- prompt: |
+    それで　電話の用件はなんだ？」。
+  answer: |
+    それで(then)　電話(phone call)の用件(purpose)は_なん(what)だ？」。
+
+- prompt: |
+    今日　何の日か
+    わかってないわけ？
+  answer: |
+    今日(today)　何(what)の_日(day)か_
+    わかって(understand)ない(not)わけ？
+
+- prompt: |
+    「別に　なんとなく電話した
+    だけだから気にしないで。
+  answer: |
+    「別に（not particularly) なんとなく(no reason)電話した(called)
+    だけ(just)だから(so)気にしないで(don't worry)。
+
+- prompt: |
+    それより　会うのはいいけど
+    早めの時間でお願いできる？」。
+  answer: |
+    それ(that)より(more than)　会う(meet)の_は_いい(good)けど(but)早め(earlier)の_時間(time)で_お願いできる？」。
+
+- prompt: |
+    思い出した
+  answer: |
+    思い出した(remembered)
+
+- prompt: |
+    人類のゾルトラークの研究 解析に 大きく貢献し
+  answer: |
+    人類(humanity)の_ゾルトラーク_の_研究(research) 解析(analysis)に_ 大きく(greatly)貢献し(contributed)
+
+- prompt: |
+    歴史上で 最も多くの魔族を 葬り去った魔法使い
+  answer: |
+    歴史(history)上(in)で_ 最も(most)多く(many)の_魔族(demon)を 葬り去った(got rid of)魔法使い(mage)
+
+- prompt: |
+    葬送のフリーレン
+  answer: |
+    葬送(funeral)の_フリーレン
+
+- prompt: |
+    私の嫌いな天才だ
+  answer: |
+    私_の_嫌いな(disliked)天才(genius)だ
+
+- prompt: |
+    しばらくはですな
+  answer: |
+    しばらく(for a while)は_です_な
+
+- prompt: |
+    すまないな
+  answer: |
+    すまない(Sorry)な
+
+- prompt: |
+    お前たちのおかげで助かった
+  answer: |
+    お前たち(you)の_おかげで(thanks to)_助かった(was saved)
+
+- prompt: |
+    感謝する
+  answer: |
+    感謝する(express gratitude)
+
+- prompt: |
+    彼女の判断は正しい
+  answer: |
+    彼女(she)の_判断(decision)は_正しい(correct)
+
+- prompt: |
+    これで フリーレンが
+    街に戻ってこれるな
+  answer: |
+    これで(this) フリーレン_が_ 
+    街(city)に_ 戻って(return)これる(can come)な
+
+- prompt: |
+    リュグナーたちを
+    倒してもらおうぜ
+  answer: |
+    リュグナー_たち_を_倒して(defeat)もらおう(let's)ぜ
+
+- prompt: |
+    フリーレン様は
+    衛兵を殺していなくて…
+  answer: |
+    フリーレン_様_は_衛兵(guard)を_ 殺していなくて(not)…
+
+- prompt: |
+    知っている
+    魔族がやったことだ
+  answer: |
+    知っている(knowing)魔族(demon)が_やった(did)こと(thing)だ
+
+- prompt: |
+    それより あの魔法使い
+    フリーレンっていうのか？
+  answer: |
+    それ(that)より(than)あの(that)魔法使い(mage)フリーレン_って_いう(called)の_か？
+
+- prompt: |
+    まさか 勇者一行にいた⸺
+  answer: |
+    まさか(unexpectedly) 勇者(hero)一行(group)に_いた(was)⸺
+
+- prompt: |
+    エルフの魔法使いか
+  answer: |
+    エルフ(elf)の_魔法使い(wizard)か_
+
+- prompt: |
+    何だ？
+  answer: |
+    何(what)だ？
+
+- prompt: |
+    先生は
+    本当に卑怯だと思ってるの？
+  answer: |
+    先生(teacher)は_本当に(really)卑怯(cowardly)だ_と_思ってる(thinking)の？
+
+- prompt: |
+    フリーレン
+  answer: |
+    フリーレン
+
+- prompt: |
+    バザルトの最期の言葉は
+    覚えてるか？
+  answer: |
+    バザルト_の_最期(last)の_言葉(words)は_覚えてる(remembering)か？
+
+- prompt: |
+    覚えてない
+  answer: |
+    覚えて(remember)ない(not)
+
+- prompt: |
+    あいつらは 言葉で
+    人間を たぶらかすんだよ
+  answer: |
+    あいつら(they)は_ 言葉(words)で_人間(human)を_ たぶらかす(deceive)んだ_よ
+
+- prompt: |
+    あいつらは 言葉で
+    人間を たぶらかすんだよ
+  answer: |
+    あいつら(they)は_ 言葉(words)で_人間(human)を_ たぶらかす(deceive)んだ_よ
+
+- prompt: |
+    （ドアが開く音）
+  answer: |
+    （ドアが開く音）
+
+- prompt: |
+    そうだ
+  answer: |
+    そう_だ
+
+- prompt: |
+    なあええ
+  answer: |
+    なあええ
+
+- prompt: |
+    ♬～
+  answer: |
+    ♬～
+
+- prompt: |
+    チッ。
+  answer: |
+    チッ。
+
+- prompt: |
+    遅かったね
+  answer: |
+    遅かった(was late)ね
+
+- prompt: |
+    アウラを倒したんですね
+  answer: |
+    アウラ_を_倒した(defeated)ん_です_ね
+
+- prompt: |
+    信じられん
+    まさか こんなことが…
+  answer: |
+    信じられん(cannot believe) まさか_こんな(this kind of)こと(thing)が…
+
+- prompt: |
+    激しい戦いであったろうに
+  answer: |
+    激しい(intense)戦い(battle)で_あったろう(must have been)に_
+
+- prompt: |
+    北側諸国の英傑たちに
+    よく敬意を払ってくれた
+  answer: |
+    北側(north)諸国(other countries)の_英傑たち(heroes)に_よく(well)敬意(respect)を_払って(to pay)くれた
+
+- prompt: |
+    前は もっと
+    派手にやっていたんだけどね
+  answer: |
+    前(previously)は_ もっと(more) 派手(flashy)に_やっていた(was doing)ん_だ_けど(but)ね
+
+- prompt: |
+    ヒンメルに怒られたから
+  answer: |
+    ヒンメル_に(by)怒られた(got scolded)から(because)
+
+- prompt: |
+    そりゃ そうだろうな
+  answer: |
+    そりゃ(that is)そう_だろう(it seems)な
+
+- prompt: |
+    しつけって言うな
+  answer: |
+    しつけ(discipline)って_言う(to say)な
+
+- prompt: |
+    フリーレン様が
+    寝てしまいそうです
+  answer: |
+    フリーレン_様_が_ 寝て(sleep)しまい(end up)そう(seems)です
+
+- prompt: |
+    寝てしまいました
+  answer: |
+    寝て(sleep)しまいました(ended up)
+
+- prompt: |
+    けど ほら 手は空いてるし
+  answer: |
+    けど(but) ほら(look) 手(hand)は_空いてる(is free)し
+
+- prompt: |
+    私が背負います
+  answer: |
+    私_が_背負います(take on)
+
+- prompt: |
+    何でもです
+  answer: |
+    何でも(whatever)です
+
+- prompt: |
+    結局 王様は
+    銅貨10枚しか くれなかったな
+  answer: |
+    結局(In the end) 王様(king)は_ 銅貨(copper coins)10枚(sheets)しか(only) くれなかった(did not give)な
+
+- prompt: |
+    魔王の討伐に
+    失敗してきたのですから
+  answer: |
+    魔王(demon king)の_討伐(defeat)に_ 失敗してきた(have been failing)のです_から(because)
+
+- prompt: |
+    魔王の討伐に
+    失敗してきたのですから
+  answer: |
+    魔王(demon king)の_討伐(defeat)に_ 失敗してきた(have been failing)のです_から(because)
+
+- prompt: |
+    お前は冒険者なのか
+  answer: |
+    お前(you)は_冒険者(adventurer)な_の_か
+
+- prompt: |
+    俺も ずっと昔
+    冒険者に憧れていた
+  answer: |
+    俺_も_ずっと(a long time)昔(ago)冒険者(adventurer)に_憧れていた(admired)。
+
+- prompt: |
+    そいつから
+    一緒に冒険者にならないかと
+  answer: |
+    そいつ(that person)から(from)一緒に(together)冒険者(adventurer)に_ならない(not become)か_と
+
+- prompt: |
+    無鉄砲な体力バカで
+  answer: |
+    無鉄砲な(reckless)体力(strength)バカ(fool)で
+
+- prompt: |
+    フリーレン様が
+    ご迷惑をおかけしました
+  answer: |
+    フリーレン_様_が_ ご迷惑(trouble)を_おかけしました(apologize)
+
+- prompt: |
+    手が汚い
+  answer: |
+    手(hand)が_汚い(dirty)
+
+- prompt: |
+    な… なるべく早くね
+  answer: |
+    な… なるべく(as much as possible)早く(quickly)ね
+
+- prompt: |
+    助けてもらったんだから
+  answer: |
+    助けて(help)もらった(received)ん_だ_から(because)
+
+- prompt: |
+    いえ 私から…
+  answer: |
+    いえ_ 私_から(from)…
+
+- prompt: |
+    得意じゃないんだよね
+  answer: |
+    得意(skilled)じゃない(is not)ん_だ_よ_ね
+
+- prompt: |
+    魔力の消費が大きいので
+    30分が限度ですね
+  answer: |
+    魔力(magic power)の_消費(consumption)が_大きい(large)ので_ 30分(minutes)が_限度(limit)です_ね
+
+- prompt: |
+    30分じゃ 街までは行けないね
+  answer: |
+    30分(minutes)じゃ(in) 街(city)まで(until)行け(can go)ない(can't)ね
+
+- prompt: |
+    毒は気合いで何とかなるって
+    師匠も言っていたぜ
+  answer: |
+    毒(poison)は_気合い(spirit)で_何とかなる(to handle)って_師匠(master)も_言っていた(was saying)ぜ
+
+- prompt: |
+    どうにか
+    ならないんですか？　神父様
+  answer: |
+    どうにか(somehow) ならない(cannot work out)ん_です_か？ 神父(priest)様
+
+- prompt: |
+    清貧です
+  answer: |
+    清(clean)貧(poverty)です
+
+- prompt: |
+    何してんだ？　フリーレン
+  answer: |
+    何(what)してんだ(doing)？　フリーレン
+
+- prompt: |
+    シュタルクの話
+    全然 聞いてあげないしさ
+  answer: |
+    シュタルク_の_話(story) 全然(completely) 聞いて(listen)あげない(not give)しさ
+
+- prompt: |
+    シュタルクが かわいそうだぜ
+  answer: |
+    シュタルク_が_ かわいそう(pitiful)だ_ぜ
+
+- prompt: |
+    俺ぐらいの年になると
+    冷たくされても
+  answer: |
+    俺_ぐらいの(around)年(age)に_なる(become)と_ 冷たく(coldly)され(to be done)ても(even if)
