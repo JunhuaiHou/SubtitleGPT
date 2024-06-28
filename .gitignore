@@ -17,5 +17,3 @@ api/api_key.txt
 
 # Ignore .srt files
 *.jsonl
-
-README.md
