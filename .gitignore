@@ -17,3 +17,6 @@ api/api_key.txt
 
 # Ignore .srt files
 *.jsonl
+
+# Ignore GitHub ReadMe file
+README.md
