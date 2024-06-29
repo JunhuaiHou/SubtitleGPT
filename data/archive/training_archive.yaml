@@ -398,3 +398,56 @@
     冷たくされても
   answer: |
     俺_ぐらいの(around)年(age)に_なる(become)と_ 冷たく(coldly)され(to be done)ても(even if)
+
+- prompt: |
+    シュタルク様が バカだからです
+  answer: |
+    シュタルク_様_が バカ(fool)だから(because)です
+
+- prompt: |
+    ところで なんでフェルンが
+    鏡蓮華のブレスレットしてるの？
+  answer: |
+    ところで(by the way) なんで(why))フェルン_が_ 鏡(mirror)蓮華(lotus)の_ブレスレット(bracelet)してる(is wearing)の？
+
+- prompt: |
+    いいや
+  answer: |
+    いいや(no)
+
+- prompt: |
+    私の村でも
+  answer: |
+    私の(my)村(village)でも(even)
+
+- prompt: |
+    私に くれたものです
+  answer: |
+    私_に_ くれた(gave)もの(thing)です
+
+- prompt: |
+    これは シュタルク様が
+    一生懸命 選んで
+  answer: |
+    これ(this)は_ シュタルク_様_が_ 一生懸命(hard) 選んで(select)
+
+- prompt: |
+    花言葉は“久遠の愛情”だ
+  answer: |
+    花(flow)言葉(language)は_“久遠(eternal)の_愛情(love)”だ
+
+- prompt: |
+    い… 生きてる
+  answer: |
+    い… 生きてる(alive)
+
+- prompt: |
+    狩りをするタイプの魔物だぜ
+  answer: |
+    狩り(hunting)を_する(do)タイプ(type)の_魔物(monster)だ_ぜ
+
+- prompt: |
+    私たちは ごちゃ混ぜのミンチに
+    なっちゃうから
+  answer: |
+    私たち(we)は_ ごちゃ混ぜ(jumble)の_ミンチ(minced meat)に_ なっちゃう(end up becoming)から(because)

@@ -44,7 +44,7 @@ def extract_dialog(file_path):
 
 
 def archive_file(src, dst):
-    with open(src, 'r') as src_file:
+    with open(src, 'r', encoding='utf-8') as src_file:
         src_contents = src_file.read()
 
     while src_contents.endswith('\n'):
@@ -55,7 +55,7 @@ def archive_file(src, dst):
 
 
 def rewrite_template(src, dst):
-    with open(src, 'r') as src_file:
+    with open(src, 'r', encoding='utf-8') as src_file:
         src_contents = src_file.read()
 
     while src_contents.endswith('\n'):
