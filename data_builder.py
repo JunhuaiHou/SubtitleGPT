@@ -22,7 +22,7 @@ def save_data(translation_pairs, file_path):
             file.write('\n')
 
 
-def extract_dialog(file_path):
+def extract_training_pairs(file_path):
     translation_pairs = []
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -85,7 +85,7 @@ archive_path = 'data/archive/training_archive.yaml'
 training_data = 'data/training_data.jsonl'
 template_path = 'data/archive/template.yaml'
 
-training_pairs = extract_dialog(training_translation)
+training_pairs = extract_training_pairs(training_translation)
 save_data(training_pairs, training_data)
 
 fine_tune()
