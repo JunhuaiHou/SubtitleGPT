@@ -25,7 +25,7 @@ def get_latest_model(client):
         fine_tuned_model = job.fine_tuned_model
         if fine_tuned_model is not None:
             break
-
+    print('Retrieved model name: ' + fine_tuned_model)
     return fine_tuned_model
 
 
