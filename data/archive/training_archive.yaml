@@ -451,3 +451,58 @@
     なっちゃうから
   answer: |
     私たち(we)は_ ごちゃ混ぜ(jumble)の_ミンチ(minced meat)に_ なっちゃう(end up becoming)から(because)
+
+- prompt: |
+    フリーレンたちは　旅をして
+    どのくらいになるんだ？
+  answer: |
+    フリーレン_たち_は_　旅(travel)を_して(do) どのくらい(how long)に_なる_んだ？
+
+- prompt: |
+    俺は１年くらいだな｡
+  answer: |
+    俺_は_１年(year)くらい(about)だ_な｡
+
+- prompt: |
+    う〜ん 前衛は いるし➡
+  answer: |
+    う〜ん 前衛(vanguard)は_ いる(there is)し➡
+
+- prompt: |
+    盗賊でしょうか｡
+  answer: |
+    盗賊(thief)でしょう(could it be)か｡
+
+- prompt: |
+    宝箱には　無限の可能性があるんだ
+    よ…｡
+  answer: |
+    宝箱(treasure chest)に_は_　無限(infinite)の_可能性(possibility)が_ある(there is)んだ_ よ…｡
+
+- prompt: |
+    フリーレンがいるでしょうが｡
+  answer: |
+    フリーレン_が_いる(exist)でしょう(isn't it)が_｡
+
+- prompt: |
+    僧侶が使う　女神様の魔法なら話は
+    別だ｡
+  answer: |
+    僧侶(priest)が_使う(use)　女神様(goddess)の_魔法(magic)なら(if)話(story)は_ 別(different)だ｡
+
+- prompt: |
+    女神様の魔法は　聖典に記されてい
+    て➡
+  answer: |
+    女神(goddess)様_の_魔法(magic)は_　聖典(holy book)に_記されていて(is recorded)➡
+
+- prompt: |
+    行くぞ｡
+    話が早くていいね｡
+  answer: |
+    行く(go)ぞ｡ 話(conversation)が_早くて(quick)いい(nice)ね｡
+
+- prompt: |
+    フリーレン様｡
+  answer: |
+    フリーレン_様｡

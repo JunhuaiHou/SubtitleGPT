@@ -50,7 +50,7 @@ def archive_file(src, dst):
     while src_contents.endswith('\n'):
         src_contents = src_contents.rstrip()
 
-    with open(dst, 'a') as dst_file:
+    with open(dst, 'a', encoding='utf-8') as dst_file:
         dst_file.write("\n\n" + src_contents)
 
 
@@ -61,7 +61,7 @@ def rewrite_template(src, dst):
     while src_contents.endswith('\n'):
         src_contents = src_contents.rstrip()
 
-    with open(dst, 'w') as dst_file:
+    with open(dst, 'w', encoding='utf-8') as dst_file:
         dst_file.write(src_contents)
 
 
