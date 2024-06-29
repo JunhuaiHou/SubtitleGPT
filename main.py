@@ -114,6 +114,6 @@ if __name__ == '__main__':
         srt_text = load_srt(srt_file_path)
         print('Loaded subtitles.')
         responses = get_responses(client, srt_text)
-        create_new_srt(srt_file_path, 'new_subtitle.srt', responses)
+        create_new_srt(srt_file_path, 'znew_subtitle.srt', responses)
     else:
         print("No SRT file found in the current directory.")
