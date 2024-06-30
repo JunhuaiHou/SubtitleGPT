@@ -506,3 +506,57 @@
     フリーレン様｡
   answer: |
     フリーレン_様｡
+
+- prompt: |
+    オイサーストとは反対方向だね。
+  answer: |
+    オイサースト_と_は_反対(opposite)方向(direction)だ_ね。
+
+- prompt: |
+    この人は
+    クラフトって名前なんだな。
+  answer: |
+    この(this)人(person)は_ クラフト_って_名前(name)なんだ_な。
+
+- prompt: |
+    何だか　ザイン様とゴリラ様に
+    似ていますね。
+  answer: |
+    何だか(somehow)　ザイン_様_と_ゴリラ(gorilla)様(ape)に_ 似ています(resembles)ね。
+
+- prompt: |
+    厄介な魔物退治に
+    発展していくんだよね。
+  answer: |
+    厄介な(troublesome)魔物(monster)退治(elimination)に_ 発展していく(develop into)んだ_よ_ね。
+
+- prompt: |
+    ゴリラ様は　高台に住んでいる➡
+  answer: |
+    ゴリラ(gorilla)様_は_　高台(hill)に_住んでいる(is living)➡
+
+- prompt: |
+    なぁ　１０年前に
+    ゴリラって名乗る人　来なかった？
+  answer: |
+    なぁ １０年(years)前(ago)に_ ゴリラ(gorilla)って(like)名乗る(called)人(person)　来なかった(did not come)？
+
+- prompt: |
+    いいよ　私たちも休みたいし。
+  answer: |
+    いい(good)よ_ 私たち(we)も(also)休みたい(want to rest)し。
+
+- prompt: |
+    何で　私を見るの？
+  answer: |
+    何で(why)　私_を_見る(look)の？
+
+- prompt: |
+    何て名前なんだ？
+  answer: |
+    何て(what)名前(name)なんだ？
+
+- prompt: |
+    楽しい時間だったよ　フォル爺。
+  answer: |
+    楽しい(fun)時間(time)だった(was)よ_　フォル_爺。
