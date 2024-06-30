@@ -560,3 +560,53 @@
     楽しい時間だったよ　フォル爺。
   answer: |
     楽しい(fun)時間(time)だった(was)よ_　フォル_爺。
+
+- prompt: |
+    ああ　分かってるフェルンに謝るよ。
+  answer: |
+    ああ　分かってる(understanding)フェルン_に_謝る(apologize)よ。
+
+- prompt: |
+    元はといえば　私のせいですし…。
+  answer: |
+    元はといえば(originally)　私の(my)せい(fault)です_し…。
+
+- prompt: |
+    ザインはとても頑張っていると思うよ。
+  answer: |
+    ザイン_は_とても(very)頑張っている(hard working)と_思う(think)よ。
+
+- prompt: |
+    ありがとうね　助かったよ。
+  answer: |
+    ありがとう(thank you)ね_　助かった(was helped)よ。
+
+- prompt: |
+    旅に誘ってくれた時もそうだが
+  answer: |
+    旅(travel)に_誘ってくれた(invited)時(time)も_そうだ(it’s the same)が
+
+- prompt: |
+    何で　俺なんかにこんなに構ってくれるんだ？
+  answer: |
+    何で(why)　俺_なんか(such as me)に_こんなに(this much)構ってくれる(care about)んだ？
+
+- prompt: |
+    やっぱり同族嫌悪かな。
+  answer: |
+    やっぱり(after all)同族(Same kind)嫌悪(dislike)かな。
+
+- prompt: |
+    冒険に出ようとしないザインが
+  answer: |
+    冒険(adventure)に_出よう(go out)と_しない(does not)ザイン_が
+
+- prompt: |
+    頭にきた。
+  answer: |
+    頭(head)に_きた(came to)
+
+- prompt: |
+    君が旅立つきっかけはこの僕だ
+  answer: |
+    君(you)が_旅立つ(depart)きっかけ(trigger)は_この(this)僕_だ
