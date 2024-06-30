@@ -82,6 +82,12 @@ def retrieve_batch(client, batch_id):
     while True:
         batch = client.batches.retrieve(batch_id)
 
+        total_requests = batch.request_counts['total']
+        completed_requests = batch.request_counts['completed']
+        failed_requests = batch.request_counts['failed']
+
+        print(f"Requests finished: {completed_requests}/{total_requests} (Failed: {failed_requests})")
+
         if batch.status == 'completed':
             print("Batch completed. Retrieving content...")
             binary_content = b""
