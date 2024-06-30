@@ -13,11 +13,13 @@ def find_srt_file():
 
 
 def load_srt(file_path):
-    with open(file_path, 'r', encoding='utf-8-sig') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
     text = []
     current_subtitle = []
+    previous_line_was_timestamp = False
+
     for line in lines:
         line_content = line.strip()
 
@@ -25,13 +27,20 @@ def load_srt(file_path):
             if current_subtitle:
                 text.append(' '.join(current_subtitle))
                 current_subtitle = []
+            previous_line_was_timestamp = False
             continue
 
         if '-->' in line_content:
+            previous_line_was_timestamp = True
             continue
 
         if line_content:
             current_subtitle.append(line_content)
+            previous_line_was_timestamp = False
+        else:
+            if previous_line_was_timestamp:
+                current_subtitle.append('♬～')
+                previous_line_was_timestamp = False
 
     if current_subtitle:
         text.append(' '.join(current_subtitle))
@@ -40,7 +49,7 @@ def load_srt(file_path):
 
 
 def load_full_srt(file_path):
-    with open(file_path, 'r', encoding='utf-8-sig') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
     text = []
@@ -107,7 +116,14 @@ def create_new_srt(input_file_path, output_file_path, gpt_responses):
 
 
 if __name__ == '__main__':
-    client = OpenAI(api_key=load_api_key())
+    debug = False
+
+    if debug:
+        api_key = 'invalid_key'
+    else:
+        api_key = load_api_key()
+
+    client = OpenAI(api_key=api_key)
     srt_file_path = find_srt_file()
 
     if srt_file_path:
