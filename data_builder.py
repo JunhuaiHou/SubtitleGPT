@@ -76,7 +76,10 @@ def fine_tune():
 
     client.fine_tuning.jobs.create(
       training_file=training_file.id,
-      model=get_latest_model(client)
+      model=get_latest_model(client),
+      hyperparameters={
+        "n_epochs": 5
+      }
     )
 
 
