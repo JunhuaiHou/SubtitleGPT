@@ -610,3 +610,56 @@
     君が旅立つきっかけはこの僕だ
   answer: |
     君(you)が_旅立つ(depart)きっかけ(trigger)は_この(this)僕_だ
+
+- prompt: |
+    老魔法使いは
+    さすがに　ひどいんじゃねえか。
+  answer: |
+    老(old)魔法使い(wizard)は_ さすがに(indeed)　ひどい(a terrible)んじゃねえか。
+
+- prompt: |
+    すみませんでした。
+  answer: |
+    すみません(unfortunately)でした(was)。
+
+- prompt: |
+    シュタルクがクソババアって
+    言ったことも忘れてないから。
+  answer: |
+    シュタルク_が_クソババア(Old hag)って_ 言った(said)こと(thing)も_忘れてない(not forgetting)から(because)。
+
+- prompt: |
+    あ？　どうしたんだよ。
+  answer: |
+    あ？　どうした(what happened)んだ_よ。
+
+- prompt: |
+    何か戦士みたいなの混ざってんな。
+  answer: |
+    何か(something)戦士(warrior)みたい(like)な_の_混ざって(mix)んな。
+
+- prompt: |
+    私は今までの人生で➡
+  answer: |
+    私_は_今(now)まで(until)の_人生(life)で➡
+
+- prompt: |
+    １１回　負けたことがある
+  answer: |
+    １１回(times)　負けた(lost)こと(thing)が_ある(have)。
+
+- prompt: |
+    １人は　私と同じエルフ。
+  answer: |
+    １人(person)は_　私_と_同じ(same)エルフ。
+
+- prompt: |
+    俺は　お前を助けたわけではない。
+  answer: |
+    俺_は_　お前(you)を_助けた(helped)わけ(case)ではない(is not)
+
+- prompt: |
+    魔法使いの仕業
+    それも恐ろしいほどの手だれだ。
+  answer: |
+    魔法使い(wizard)の_仕業(deed) それ(that)も_恐ろしい(terrifying)ほど(extent)の_手だれ(skilled person)だ。
