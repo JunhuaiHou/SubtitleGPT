@@ -663,3 +663,53 @@
     それも恐ろしいほどの手だれだ。
   answer: |
     魔法使い(wizard)の_仕業(deed) それ(that)も_恐ろしい(terrifying)ほど(extent)の_手だれ(skilled person)だ。
+
+- prompt: |
+    パーティー戦だ　総勢５７名。
+  answer: |
+    パーティー(party)戦(battle)だ_　総勢(total number)５７名(people)。
+
+- prompt: |
+    ３人１組のパーティーに分かれ試験を受けてもらう。
+  answer: |
+    ３人(people)１組(group)の_パーティー(party)に_分かれ(divide)試験(exam)を_受けて(take)もらう(receive)。
+
+- prompt: |
+    ほら…　やりゃできんだよ…。
+  answer: |
+    ほら…　やりゃ(if do)できん(can)だ_よ…。
+
+- prompt: |
+    ラヴィーネは乱暴だけれども
+  answer: |
+    ラヴィーネ_は_乱暴(violent)だけれども(although)
+
+- prompt: |
+    他の冒険者をまねて鼓舞するつもりだったんだが…
+  answer: |
+    他(other)の_冒険者(adventurer)を_まねて(imitate)鼓舞する(inspire)つもり(intent)だった(was)んだ_が…
+
+- prompt: |
+    ５０ｃｍって…。
+  answer: |
+    ５０ｃｍって…。
+
+- prompt: |
+    今まで　どのくらいまで近づけたっけ？
+  answer: |
+    今(now)まで(until)　どのくらい(how much)まで(until)近づけた(approached)っけ？
+
+- prompt: |
+    この作戦ならいけるかも。
+  answer: |
+    この(this)作戦(strategy)なら(if)いける(can work)かも(might)。
+
+- prompt: |
+    他のパーティー全員にケンカを売ることになるぜ。
+  answer: |
+    他(other)の_パーティー(party)全員(everyone)に_ケンカ(quarrel)を_売る(sell)ことになる(end up)ぜ。
+
+- prompt: |
+    これってさ道だと思っていたけれども
+  answer: |
+    これ(this)って_さ_道(road)だ_と_思っていた(was thinking)けれども(but)
