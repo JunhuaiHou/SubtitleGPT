@@ -713,3 +713,53 @@
     これってさ道だと思っていたけれども
   answer: |
     これ(this)って_さ_道(road)だ_と_思っていた(was thinking)けれども(but)
+
+- prompt: |
+    今から　ちょうど２９年前。
+  answer: |
+    今(now)から(from)　ちょうど(exactly)２９年(year)前(ago)。
+
+- prompt: |
+    ４つか５つのガキの頃の話だ。
+  answer: |
+    ４つ_か_５つのガキ(child)の_頃(time)の_話(story)だ。
+
+- prompt: |
+    そういえば　第二次試験の試験官は　お前だったな　ゼンゼ。
+  answer: |
+    そういえば(Speaking of which) 第二次(second)試験(test)の試験官(examiner)は_　お前(you)だった(was)な_　ゼンゼ。
+
+- prompt: |
+    ヤツの実力は　一級魔法使いと比べても遜色はない。
+  answer: |
+    ヤツの(his)実力(ability)は 一級(first-class)魔法使い(wizard)と_比べて(compare)も(even)遜色(inferiority)は_ない(no)。
+
+- prompt: |
+    儂らは足止めができればそれでいい。
+  answer: |
+    儂ら(we)は_足止め(hold back)が_できれば(if can)それで(that way)いい(good)。
+
+- prompt: |
+    あんたみたいに　特権なんてどうでもいいって方が少数派だ。
+  answer: |
+    あんた_みたい(like)に_　特権(privilege)なんて(such as)どうでもいい(whatever)って_方(type)が_少数派(minority)だ_。
+
+- prompt: |
+    若いヤツは血気盛んでいかんな。
+  answer: |
+    若い(young)ヤツ(guys)は_血気盛ん(hot-blooded)で_いかん(not good)な。
+
+- prompt: |
+    老いぼれが。
+  answer: |
+    老いぼれ(old geezer)が。
+
+- prompt: |
+    こいつは儂がたたきつぶすそれでよかろう。
+  answer: |
+    こいつ(this person)は_儂_が_たたきつぶす(crush)それで(with that)よかろう(should be good)。
+
+- prompt: |
+    ガキのお守りくらいできるだろう。
+  answer: |
+    ガキ(brat)の_お守り(babysit)くらい(at least)できる(can do)だろう。
