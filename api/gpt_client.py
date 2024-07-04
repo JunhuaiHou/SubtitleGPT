@@ -86,7 +86,10 @@ def retrieve_batch(client, batch_id):
         completed_requests = batch.request_counts.completed
         failed_requests = batch.request_counts.failed
 
-        print(f"Requests finished: {completed_requests}/{total_requests} (Failed: {failed_requests})")
+        if completed_requests + failed_requests == total_requests:
+            print(f"Batch almost complete. Please wait...")
+        else:
+            print(f"Requests finished: {completed_requests}/{total_requests} (Failed: {failed_requests})")
 
         if batch.status == 'completed':
             print("Batch completed. Retrieving content...")
