@@ -763,3 +763,58 @@
     ガキのお守りくらいできるだろう。
   answer: |
     ガキ(brat)の_お守り(babysit)くらい(at least)できる(can do)だろう。
+
+- prompt: |
+    魔法というのは
+    イメージの世界だ。
+  answer: |
+    魔法(magic)という(referred to as)の_は_ イメージ(imagination)の_世界(world)だ。
+
+- prompt: |
+    大量の魔力に守られている
+    魔法使い相手に
+  answer: |
+    大量(large amount)の_魔力(magic power)に_守られている(is protected) 魔法使い(wizard)相手(opponent)に
+
+- prompt: |
+    それに仮に
+    この場に水があったとしても
+  answer: |
+    それに(besides)仮に(assuming that) この(this)場(place)に_水(water)が_あった(had)としても(even if)。
+
+- prompt: |
+    竜巻を起こす魔法。
+  answer: |
+    竜巻(tornado)を_起こす(create)魔法(magic)。
+
+- prompt: |
+    老いぼれめ　何て戦い方しやがる。
+  answer: |
+    老いぼれ(old geezer)め_　何て(what kind of)戦い(fighting)方(method)しやがる。
+
+- prompt: |
+    そうか　ならいいが。
+  answer: |
+    そうか_　なら(in that case)いい(fine)が。
+
+- prompt: |
+    この世にゼーリエを超える
+    魔法使いがいると思うか？
+  answer: |
+    この(this)世(world)に_ゼーリエ_を_超える(surpass) 魔法使い(wizard)が_いる(exist)と_思う(think)か？
+
+- prompt: |
+    絶え間のない光の矢だぞ
+  answer: |
+    絶え間(interval)の_ない(not)光(light)の_矢(arrow)だ_ぞ
+
+- prompt: |
+    そのような隙なぞ…
+  answer: |
+    その(that)ような(like)隙(gap)なぞ…
+
+- prompt: |
+    信じられん…
+    こいつは最後まで
+  answer: |
+    信じられん(unbelievable)… こいつ(this guy)は_最後(end)まで(until)
