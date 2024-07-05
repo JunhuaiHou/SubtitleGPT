@@ -818,3 +818,59 @@
     こいつは最後まで
   answer: |
     信じられん(unbelievable)… こいつ(this guy)は_最後(end)まで(until)
+
+- prompt: |
+    現時刻をもって
+    第一次試験を終了とする。
+  answer: |
+    現(present)時刻(time)を_もって(as of) 第一(first)次(time)試験(exam)を_終了(conclude)と_する。
+
+- prompt: |
+    第一次試験合格者は
+    計６パーティー　１８名。
+  answer: |
+    第一次(first)試験(exam)合格(pass)者(person)は_ 計(total)６パーティー(group) １８名(persons)。
+
+- prompt: |
+    第二次試験は３日後だ。
+  answer: |
+    第二次(second)試験(exam)は_３日(days)後(later)だ。
+
+- prompt: |
+    一級魔法使いの
+    試験に行ってたんじゃ…。
+  answer: |
+    一級(first-class)魔法使い(wizard)の_ 試験(exam)に_行ってた(had gone)ん_じゃ…。
+
+- prompt: |
+    夜中にジュースも飲みました。
+  answer: |
+    夜中(midnight)に_ジュース(juice)も(also)飲みました(drank)。
+
+- prompt: |
+    あ～あ　怒らせちゃった。
+  answer: |
+    あ～あ　怒らせちゃった(made angry)。
+
+- prompt: |
+    飛び火した…。
+  answer: |
+    飛び火した(spread)…。
+
+- prompt: |
+    帰れ　俺たちは
+    もうパーティーじゃ　ない。
+  answer: |
+    帰れ(go back)　俺たち(we)は_ もう(anymore)パーティー(party)じゃない(is not)。
+
+- prompt: |
+    魔法使いとして
+    生きていくのなら➡
+  answer: |
+    魔法使い(wizard)として(as) 生きていく(continue living)の_なら(if)➡
+
+- prompt: |
+    う～ん
+    難しい表現なんだけどさ～。
+  answer: |
+    う～ん 難しい(difficult)表現(expression)なんだけど(but) さ～。
