@@ -874,3 +874,53 @@
     難しい表現なんだけどさ～。
   answer: |
     う～ん 難しい(difficult)表現(expression)なんだけど(but) さ～。
+
+- prompt: |
+    １８名
+  answer: |
+    １８名(persons)
+
+- prompt: |
+    私が
+  answer: |
+    私_が
+
+- prompt: |
+    これまでの結果から
+  answer: |
+    これまで(until now)の_結果(results)から(from)
+
+- prompt: |
+    君たちの中
+  answer: |
+    君たち(you)の_中(among)
+
+- prompt: |
+    合格条件は　ただ一つ。
+  answer: |
+    合格(pass)条件(requirement)は_　ただ(only)一つ(one)。
+
+- prompt: |
+    ということ
+  answer: |
+    ということ(the fact that)
+
+- prompt: |
+    金
+  answer: |
+    金(gold)
+
+- prompt: |
+    それと
+  answer: |
+    それと(and also)
+
+- prompt: |
+    ゴーレム
+  answer: |
+    ゴーレム(golem)
+
+- prompt: |
+    割れば
+  answer: |
+    割れば(if break)
