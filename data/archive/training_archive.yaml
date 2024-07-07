@@ -976,3 +976,53 @@
     儂は
   answer: |
     儂_は
+
+- prompt: |
+    楽しみだね
+  answer: |
+    楽しみ(enjoyment)だ_ね
+
+- prompt: |
+    私たち
+  answer: |
+    私たち(we)
+
+- prompt: |
+    千年
+  answer: |
+    千(thousand)年(year)
+
+- prompt: |
+    ２００年後
+  answer: |
+    ２００年(year)後(after)
+
+- prompt: |
+    無
+  answer: |
+    無(nothing)
+
+- prompt: |
+    あの子
+  answer: |
+    あの(that)子(kid)
+
+- prompt: |
+    背の小さな
+  answer: |
+    背(height)の_小さな(small)
+
+- prompt: |
+    何の役にも立たない
+  answer: |
+    何の(any)役(use)に_も_立たない(not useful)
+
+- prompt: |
+    それでも
+  answer: |
+    それでも(even so)
+
+- prompt: |
+    って言っていた
+  answer: |
+    って_言っていた(was saying)
