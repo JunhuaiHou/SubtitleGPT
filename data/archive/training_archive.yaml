@@ -924,3 +924,55 @@
     割れば
   answer: |
     割れば(if break)
+
+- prompt: |
+    ん…⁉
+  answer: |
+    ん…⁉
+
+- prompt: |
+    フリーレン様を
+  answer: |
+    フリーレン_様_を
+
+- prompt: |
+    あの　それでしたら
+  answer: |
+    あの_　それ(that)でしたら(if it is)
+
+- prompt: |
+    だろう
+  answer: |
+    だろう(might be)
+
+- prompt: |
+    知っている
+  answer: |
+    知っている(know)
+
+- prompt: |
+    エーレは
+    単純な魔力勝負の殴り合いなら
+  answer: |
+    エーレ_は_ 単純な(simple)魔(magic)力(power)勝負(contest)の_殴り合い(brawl)なら(if)
+
+- prompt: |
+    ただ　思った通り
+    相性は悪くなさそうだ
+  answer: |
+    ただ(however)　思った(thought)通り(exactly as) 相性(compatibility)は_悪く(bad)なさそう(does not seem)だ
+
+- prompt: |
+    心がないパターン
+  answer: |
+    心(mind)が_ない(no)パターン(scenario)
+
+- prompt: |
+    うわ！
+  answer: |
+    うわ！
+
+- prompt: |
+    儂は
+  answer: |
+    儂_は
