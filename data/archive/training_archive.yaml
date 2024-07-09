@@ -1076,3 +1076,53 @@
     なぜそう言い切れるのですか？
   answer: |
     なぜ(why)そう(so)言い切れる(say definitely)の_です_か？
+
+- prompt: |
+    ３年後
+  answer: |
+    ３年(year)後(after)
+
+- prompt: |
+    入れ知恵
+  answer: |
+    入れ知恵(advice)
+
+- prompt: |
+    ために
+  answer: |
+    ため(sake)に
+
+- prompt: |
+    いえ　何の話だか
+  answer: |
+    いえ_　何の(what kind of)話(talk)だ_か
+
+- prompt: |
+    匹敵する
+  answer: |
+    匹敵する(rival)
+
+- prompt: |
+    異論はないな
+  answer: |
+    異論(objection)は_ない(no)な
+
+- prompt: |
+    私が
+  answer: |
+    私_が
+
+- prompt: |
+    いた
+  answer: |
+    いた(there was)
+
+- prompt: |
+    大事
+  answer: |
+    大事(important)
+
+- prompt: |
+    デンケンの
+  answer: |
+    デンケン_の
