@@ -1026,3 +1026,53 @@
     って言っていた
   answer: |
     って_言っていた(was saying)
+
+- prompt: |
+    ほどの
+  answer: |
+    ほど(extent)の
+
+- prompt: |
+    攻略した
+  answer: |
+    攻略した(conquered)
+
+- prompt: |
+    零落の王墓
+  answer: |
+    零落(ruin)の_王(royal)墓(tomb)
+
+- prompt: |
+    最深部
+  answer: |
+    最(most)深(deep)部(part)
+
+- prompt: |
+    お前ら
+  answer: |
+    お前ら(you guys)
+
+- prompt: |
+    おんぶしてくれ
+  answer: |
+    おんぶ(piggyback ride)して(do)くれ
+
+- prompt: |
+    なんです
+  answer: |
+    なん_です
+
+- prompt: |
+    感じない
+  answer: |
+    感じない(not feel)
+
+- prompt: |
+    なめている
+  answer: |
+    なめている(underestimating)
+
+- prompt: |
+    なぜそう言い切れるのですか？
+  answer: |
+    なぜ(why)そう(so)言い切れる(say definitely)の_です_か？
