@@ -1126,3 +1126,53 @@
     デンケンの
   answer: |
     デンケン_の
+
+- prompt: |
+    フリーレン。
+  answer: |
+    フリーレン。
+
+- prompt: |
+    そうだね
+  answer: |
+    そうだ_ね
+
+- prompt: |
+    それは
+  answer: |
+    それ(that)は
+
+- prompt: |
+    酌み交わして
+  answer: |
+    酌み交わして(drink together)
+
+- prompt: |
+    まぁ　らしくないとは思うな
+  answer: |
+    まぁ_　らしくない(uncharacteristic)と_は_思う(think)な
+
+- prompt: |
+    とはいえ
+  answer: |
+    とはいえ(even though)
+
+- prompt: |
+    あっさり
+  answer: |
+    あっさり(easily)
+
+- prompt: |
+    またね
+  answer: |
+    また(again)ね
+
+- prompt: |
+    私たちは不合格だったけれども
+  answer: |
+    私たち(we)は_不合格(unsuccessful)だった(were)けれども(although)
+
+- prompt: |
+    来た
+  answer: |
+    来た(came)
