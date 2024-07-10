@@ -1176,3 +1176,53 @@
     来た
   answer: |
     来た(came)
+
+- prompt: |
+    成蟜様…
+  answer: |
+    成蟜_様…
+
+- prompt: |
+    王弟
+  answer: |
+    王(king)弟(younger brother)
+
+- prompt: |
+    を救え
+  answer: |
+    を_救え(save)
+
+- prompt: |
+    討伐軍
+  answer: |
+    討伐(suppression)軍(army)
+
+- prompt: |
+    蒲鶮
+  answer: |
+    蒲鶮
+
+- prompt: |
+    屯留ごときが野望か
+  answer: |
+    屯留_ごとき(such as)が_野望(ambition)か
+
+- prompt: |
+    生まれながらに
+  answer: |
+    生まれ(birth)ながらに(since)
+
+- prompt: |
+    その才覚
+  answer: |
+    その(that)才覚(talent)
+
+- prompt: |
+    ヤツ
+  answer: |
+    ヤツ(that guy)
+
+- prompt: |
+    壁を
+  answer: |
+    壁_を
