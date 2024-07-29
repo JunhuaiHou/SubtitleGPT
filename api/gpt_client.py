@@ -2,10 +2,7 @@ import re
 import time
 import json
 
-raw_instruction = """ You are given a japanese subtitle file. 
-                  You translate every word into english and give its definitions in brackets right after.
-                  Some words and names can be skipped with _. Don't translate what is in brackets.
-              """
+raw_instruction = """x"""
 
 instruction = re.sub(' {2,}', ' ', raw_instruction.replace('\n', ' ').strip())
 
@@ -25,20 +22,26 @@ def get_latest_model(client):
         fine_tuned_model = job.fine_tuned_model
         if fine_tuned_model is not None:
             break
+
+    if fine_tuned_model is None:
+        fine_tuned_model = 'gpt-4o-mini-2024-07-18'
     print('Retrieved model name: ' + fine_tuned_model)
-    return fine_tuned_model
+    return 'gpt-4o-mini-2024-07-18'
 
 
 def remove_brackets(text):
-    modified_text = re.sub(r'(\(.*?\)|（.*?）|\{.*?\})', '', text)
+    modified_text = re.sub(r'\{.*?\}', '', text)
+    text_no_tag = re.sub(r'\<.*?\>', '', text)
+    text_no_parentheses = re.sub(r'\(.*?\)', '', text_no_tag)
+    text_no_full_width_parentheses = re.sub(r'（.*?）', '', text_no_parentheses)
 
     if re.search(r'\S', modified_text):
-        return modified_text.strip()
+        return text_no_full_width_parentheses.strip()
     else:
-        return text
+        return re.sub(r'（(.*?)）', r'\1', modified_text)
 
 
-def prepare_requests(srt_text, client):
+def prepare_batch_requests(srt_text, client):
     requests = []
     model = get_latest_model(client)
     for i, text in enumerate(srt_text):
@@ -49,6 +52,7 @@ def prepare_requests(srt_text, client):
             "url": "/v1/chat/completions",
             "body": {
                 "model": model,
+                "temperature": 0.0,
                 "messages": [
                     {"role": "system", "content": instruction},
                     {"role": "user", "content": clean_text}
@@ -57,7 +61,6 @@ def prepare_requests(srt_text, client):
             }
         }
         requests.append(request)
-
     return requests
 
 
@@ -115,3 +118,17 @@ def retrieve_batch(client, batch_id):
             print("Batch not completed yet. Checking again in 1 second...")
 
         time.sleep(1)
+
+
+def query_chatgpt(client, raw_prompt, model):
+    prompt = remove_brackets(raw_prompt)
+    completion = client.chat.completions.create(
+      model=model,
+      temperature=0.0,
+      messages=[
+        {"role": "system", "content": instruction},
+        {"role": "user", "content": prompt}
+      ]
+    )
+    print(f'Request submitted with model: {model}, instruction: "{instruction}", prompt: "{prompt}".')
+    return completion

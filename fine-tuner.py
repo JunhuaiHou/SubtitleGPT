@@ -78,8 +78,11 @@ def fine_tune():
       training_file=training_file.id,
       model=get_latest_model(client),
       hyperparameters={
-        "n_epochs": 5
-      }
+        "n_epochs": 5,
+        "batch_size": 1,
+        "learning_rate_multiplier": 2
+      },
+      suffix='FGPT',
     )
 
 

@@ -1,5 +1,5 @@
 from openai import OpenAI
-from api.gpt_client import prepare_requests, load_api_key, batch_query_chatgpt, retrieve_batch
+from api.gpt_client import load_api_key, query_chatgpt, get_latest_model
 import time
 import os
 import json
@@ -76,43 +76,42 @@ def write_requests_to_file(requests, filename):
             f.write(json.dumps(request) + '\n')
 
 
-def get_responses(client, srt_text):
+def get_responses(client, subtitles):
     start_time = time.time()
-    print('Preparing requests.')
-    requests = prepare_requests(srt_text, client)
-    print('Requests prepared.')
-    write_requests_to_file(requests, 'batch.jsonl')
-    print('Batch file created.')
-    id = batch_query_chatgpt(client)
-    print('Batch file uploaded to OpenAI server.')
-    batch_response = retrieve_batch(client, id)
-    responses = []
-    for line in batch_response.strip().split('\n'):
-        if line.strip():
-            data = json.loads(line)
-            content = data['response']['body']['choices'][0]['message']['content']
-            responses.append(content)
+    gpt_responses = []
+    model = get_latest_model(client)
+    total_subtitles = len(subtitles)
+
+    for idx, subtitle in enumerate(subtitles, start=1):
+        response = query_chatgpt(client, subtitle, model)
+        content = response.choices[0].message.content
+        gpt_responses.append(content)
+        print(f'Request completed for subtitle {idx}/{total_subtitles}.')
 
     end_time = time.time()
     duration = end_time - start_time
     minutes, seconds = divmod(duration, 60)
     print(f'Generation Successful. Duration: {int(minutes)} minutes {seconds:.2f} seconds')
-    return responses
+    return gpt_responses
 
 
 def create_new_srt(input_file_path, output_file_path, gpt_responses):
+    print('Creating new subtitle file.')
     srt_contents = load_full_srt(input_file_path)
     new_srt_content = []
+
+    counter = 1
 
     for original, response in zip(srt_contents, gpt_responses):
         first_two_lines, remaining_lines = original.split('\n', 2)[:2], original.split('\n', 2)[2:]
         if not response.endswith('\n'):
             response += '\n'
 
-        new_srt_content.append('\n'.join(first_two_lines) + '\n' + response)
-
+        new_srt_content.append('\n'.join(first_two_lines) + '\n' + f'{counter}_ {response}')
+        counter += 1
     with open(output_file_path, 'w', encoding='utf-8-sig') as file:
         file.write('\n'.join(new_srt_content))
+    print('New subtitle file Created.')
 
 
 if __name__ == '__main__':
@@ -126,9 +125,9 @@ if __name__ == '__main__':
     client = OpenAI(api_key=api_key)
     srt_file_path = find_srt_file()
     if srt_file_path:
-        srt_text = load_srt(srt_file_path)
+        subtitles = load_srt(srt_file_path)
         print('Loaded subtitles.')
-        responses = get_responses(client, srt_text)
+        responses = get_responses(client, subtitles)
         create_new_srt(srt_file_path, 'subtitles/znew_subtitle.srt', responses)
     else:
         print("No SRT file found in the current directory.")
