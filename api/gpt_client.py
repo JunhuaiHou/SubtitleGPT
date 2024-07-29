@@ -28,7 +28,7 @@ def get_latest_model(client):
     if fine_tuned_model is None:
         fine_tuned_model = 'gpt-4o-mini-2024-07-18'
     print('Retrieved model name: ' + fine_tuned_model)
-    return 'gpt-4o-mini-2024-07-18'
+    return fine_tuned_model
 
 
 def remove_brackets(text):
