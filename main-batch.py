@@ -1,5 +1,5 @@
 from openai import OpenAI
-from api.gpt_client import prepare_batch_requests, load_api_key, batch_query_chatgpt, retrieve_batch
+from api.gpt_client import prepare_batch_requests, load_api_key, batch_query_chatgpt, retrieve_batch, gpt_name
 import time
 import os
 import json
@@ -9,9 +9,9 @@ def find_srt_file():
     srt_files = os.listdir('./subtitles')
 
     for file_name in srt_files:
-        if file_name.lower().endswith('.srt') and not file_name.startswith('SGPT_'):
-            sgpt_file_name = f'SGPT_{file_name}'
-            if sgpt_file_name not in srt_files:
+        if file_name.lower().endswith('.srt') and not file_name.startswith(f'{gpt_name}_'):
+            gpt_file_name = f'{gpt_name}_{file_name}'
+            if gpt_file_name not in srt_files:
                 return file_name
     return None
 
@@ -142,6 +142,6 @@ if __name__ == '__main__':
         srt_text = load_srt(srt_file_path)
         print(f'Loaded subtitle file name {srt_file_name}')
         responses = get_responses(client, srt_text)
-        create_new_srt(srt_file_path, f'subtitles/SGPT_{srt_file_name}', responses)
+        create_new_srt(srt_file_path, f'subtitles/{gpt_name}_{srt_file_name}', responses)
     else:
         print("No SRT file found in the current directory.")
