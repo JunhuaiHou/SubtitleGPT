@@ -1226,3 +1226,59 @@
     壁を
   answer: |
     壁_を
+
+- prompt: |
+    彼の死に際に放った ひと言は
+    人々を海へと駆り立てた
+  answer: |
+    彼の(his)死(death)に_際(time)に_放った(uttered)ひと言(word)は_人々(people)を_海(sea)へと_駆り立てた(drove)。
+
+- prompt: |
+    俺の財宝か？
+    欲しけりゃくれてやる
+  answer: |
+    俺の(my)財宝(treasure)か？_ 欲しけりゃ(if you want)くれてやる(give)
+
+- prompt: |
+    探せ！　この世のすべてを
+    そこに置いてきた
+  answer: |
+    探せ(search)！　この(this)世(world)の_すべて(all)を_ そこ(there)に_置いてきた(left behind)
+
+- prompt: |
+    世は まさに大海賊時代
+  answer: |
+    世(world)は_ まさに(exactly)大(great)海賊(pirate)時代(age)
+
+- prompt: |
+    “ワンピース”を狙う
+    すべての海賊たちが目指す—
+  answer: |
+    “ワンピース”を_狙う(target) すべての(all)海賊(pirate)たち_が_目指す(aim for)—
+
+- prompt: |
+    グランドライン後半の海
+  answer: |
+    グランドライン_後半(second half)の_海(sea)
+
+- prompt: |
+    人呼んで“新世界”
+  answer: |
+    人(person)呼んで(call)“新(new)世界(world)”
+
+- prompt: |
+    深海１万メートルにある
+    魚人島へ到達した麦わらの一味
+  answer: |
+    深(deep)海(sea)１万(thousand)メートル(meters)に_ある(exist) 魚人(fishman)島(island)へ_到達した(arrived)麦わら(straw)の_一味(crew)
+
+- prompt: |
+    リュウグウ王国崩壊を
+    もくろむ新魚人海賊団と対峙
+  answer: |
+    リュウグウ_王国(kingdom)崩壊(collapse)を_ もくろむ(plan)新(new)魚人(fishman)海賊(pirate)団(crew)と_対峙(confront)
+
+- prompt: |
+    全面戦争へと突入
+  answer: |
+    全面(complete)戦争(war)へ_と_突入(plunge into)
