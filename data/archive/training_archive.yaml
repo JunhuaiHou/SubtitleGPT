@@ -1282,3 +1282,57 @@
     全面戦争へと突入
   answer: |
     全面(complete)戦争(war)へ_と_突入(plunge into)
+
+- prompt: |
+    人呼んで“新世界”
+  answer: |
+    人(people)呼んで(call)“新(new)世界(world)”
+
+- prompt: |
+    その海に今
+    ゴムゴムの実を食べ—
+  answer: |
+    その(that)海(sea)に_今(now) ゴム(rubber)ゴム_の_実(fruit)を_食べ(eat)—
+
+- prompt: |
+    ２年前 私は空島で—
+  answer: |
+    ２年(year)前(ago) 私_は_空(sky)島(island)で—
+
+- prompt: |
+    何のためにか—
+  answer: |
+    何(what)の_ため(sake)に_か—
+
+- prompt: |
+    遠い昔に実在した
+    この世界を滅ぼせるほどの力
+  answer: |
+    遠い昔(far ago)に_実在した(existed) この(this)世界(world)を_滅ぼせる(destroy)ほど(extent)の_力(power)
+
+- prompt: |
+    神の名を持つ３つの古代兵器
+  answer: |
+    神(god)の_名(name)を_持つ(have)３つ_の_古代(ancient)兵器(weapon)
+
+- prompt: |
+    そのうちの１つが… 彼女
+  answer: |
+    その(that)うち(among)の_１つ_が… 彼女(her)
+
+- prompt: |
+    お宝いただいて おさらばしようと
+    思ってたところに—
+  answer: |
+    お宝(treasure)いただいて(taking) おさらば(goodbye)しよう(intend to)と_ 思ってた(was thinking)ところ(time)に—
+
+- prompt: |
+    ハア〜ッ おかわり
+  answer: |
+    ハア〜ッ おかわり(refill)
+
+- prompt: |
+    もう全部
+    食べちゃったんですか？
+  answer: |
+    もう(already)全部(all)食べちゃった(eaten)ん_です_か？
