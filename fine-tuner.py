@@ -1,7 +1,7 @@
 import yaml
 import json
 from openai import OpenAI
-from api.gpt_client import instruction, load_api_key, get_latest_model
+from api.gpt_client import instruction, load_api_key, get_latest_model, gpt_name
 
 
 def format_data(prompt, answer):
@@ -82,7 +82,7 @@ def fine_tune():
         "batch_size": 1,
         "learning_rate_multiplier": 2
       },
-      suffix='FGPT',
+      suffix=gpt_name,
     )
 
 
