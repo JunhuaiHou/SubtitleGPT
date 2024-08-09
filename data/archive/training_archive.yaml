@@ -1336,3 +1336,55 @@
     食べちゃったんですか？
   answer: |
     もう(already)全部(all)食べちゃった(eaten)ん_です_か？
+
+- prompt: |
+    次なる舞台
+    新世界へ向かうため—
+  answer: |
+    次なる(next)舞台(stage) 新(new)世界(world)へ_向かう(go)ため(sake)—
+
+- prompt: |
+    もう１つは…
+  answer: |
+    もう１つ(one more)は…
+
+- prompt: |
+    言い訳が立つかどうか
+  answer: |
+    言い訳(excuse)が_立つ(stand)かどうか(whether)
+
+- prompt: |
+    宴は程よく お開きとなり…
+  answer: |
+    宴(feast)は_程よく(appropriately) お開き(closing)と_なり(came to)…
+
+- prompt: |
+    幸先 いいじゃねえか
+  answer: |
+    幸先(prospects) いい(good)じゃねえ_か
+
+- prompt: |
+    早速 金持ち海賊団か アウッ
+  answer: |
+    早速(right away) 金持ち(rich)海賊(pirate)団(crew)か_ アウッ
+
+- prompt: |
+    こりゃ
+    すげえ量 散らばってんぞ
+  answer: |
+    こりゃ(this) すげえ(great)量(amount) 散らばってん(scattered)ぞ
+
+- prompt: |
+    よ〜し 竜宮城へ
+  answer: |
+    よ〜し_ 竜(dragon)宮城(palace)へ
+
+- prompt: |
+    つまみ食いを期待した俺も おなかペコペコよ
+  answer: |
+    つまみ食い(snacking)を_期待した(expected)俺_も_ おなか(stomach)ペコペコ(starving)よ
+
+- prompt: |
+    おたくら 月１回 菓子を納める
+  answer: |
+    おたくら(you) 月(month)１回(once) 菓子(sweets)を_納める(pay)。
