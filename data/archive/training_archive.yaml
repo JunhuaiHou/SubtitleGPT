@@ -1388,3 +1388,59 @@
     おたくら 月１回 菓子を納める
   answer: |
     おたくら(you) 月(month)１回(once) 菓子(sweets)を_納める(pay)。
+
+- prompt: |
+    彼の死に際に放った ひと言は
+    人々を海へと駆り立てた
+  answer: |
+    彼の(his)死(death)に_際に(at that time)放った(uttered)ひと言(word)は_人々(people)を_海(sea)へと_駆り立てた(drove)。
+
+- prompt: |
+    望みどおり—
+  answer: |
+    望みどおり(as one wishes)—
+
+- prompt: |
+    小僧が
+  answer: |
+    小僧(brat)が
+
+- prompt: |
+    どうぞ
+    おお サンキュー
+  answer: |
+    どうぞ_ おお_ サンキュー(thank you)
+
+- prompt: |
+    整腸作用もありますので—
+  answer: |
+    整(regulate)腸(intestine)作用(effect)も(also)あります(has)ので(because)—
+
+- prompt: |
+    うめえ
+    さすが気が利くな 大臣
+  answer: |
+    うめえ(delicious) さすが(as expected)気が利く(considerate)な_ 大臣(minister)
+
+- prompt: |
+    至れり尽くせりで
+    何だか申し訳ない
+  answer: |
+    至れり尽くせりで(thoroughly) 何だか(somehow)申し訳ない(feel bad)
+
+- prompt: |
+    いえいえ
+  answer: |
+    いえ(no)いえ_
+
+- prompt: |
+    お別れなんて
+    言わないでください
+  answer: |
+    お別れ(farewell)なんて(such as) 言わないで(don't say)ください(please)
+
+- prompt: |
+    なな…
+    泣くなよ 悪かったよ
+  answer: |
+    なな… 泣く(cry)な_よ_ 悪かった(sorry)よ
