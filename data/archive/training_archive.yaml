@@ -1444,3 +1444,58 @@
     泣くなよ 悪かったよ
   answer: |
     なな… 泣く(cry)な_よ_ 悪かった(sorry)よ
+
+- prompt: |
+    深海１万メートルにある
+    魚人島へ到達した麦わらの一味
+  answer: |
+    深(deep)海(sea)１万(ten thousand)メートル(meters)に_ある(exist) 魚人(fishman)島(island)へ_到達した(arrived)麦わら(straw)の_一味(crew)
+
+- prompt: |
+    新魚人海賊団との
+    全面戦争に突入するが—
+  answer: |
+    新(new)魚人(fishman)海賊(pirate)団(crew)と_の_全面(total)戦争(war)に_突入する(plunge into)が—
+
+- prompt: |
+    サニー号だ
+  answer: |
+    サニー_号_だ
+
+- prompt: |
+    いよいよだな
+  answer: |
+    いよいよだな
+
+- prompt: |
+    見送っておあげよ
+  answer: |
+    見送って(send off)お_あげ_よ
+
+- prompt: |
+    これからも また カフェを
+    盛り上げておくれよ あんたたち
+  answer: |
+    これから(from now)も_ また(again) カフェ(cafe)を_ 盛り上げて(liven up)おくれ_よ_ あんたたち(you)
+
+- prompt: |
+    ルフィ様たち
+  answer: |
+    ルフィ_様_たち
+
+- prompt: |
+    本当に もう
+    行ってしまわれるのですか？
+  answer: |
+    本当に(really) もう(already) 行ってしまわれる(leave)のです_か？
+
+- prompt: |
+    せっかく
+    お友達になれましたのに
+  answer: |
+    せっかく_ お_友達(friend)に_なれました(became)のに(even though)
+
+- prompt: |
+    せめて あと１日…
+  answer: |
+    せめて(at least) あと(more)１日(day)…
